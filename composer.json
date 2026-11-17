@@ -1,6 +1,7 @@
 {
-    "name": "friendsofredaxo/video_editor",
+    "name": "klxm/video_editor",
     "description": "Videos im REDAXO-6-Medienpool bearbeiten: analysieren, für das Web optimieren, schneiden, Poster wählen, Untertitel (VTT) – mit ffmpeg, Aufträge im Hintergrund",
+    "homepage": "https://github.com/KLXM/video_editor",
     "type": "redaxo-addon",
     "license": "MIT",
     "keywords": [
@@ -13,7 +14,6 @@
         "subtitles",
         "webvtt"
     ],
-    "homepage": "https://github.com/FriendsOfREDAXO/video_editor",
     "authors": [
         {
             "name": "Thomas Skerbis",
@@ -21,8 +21,8 @@
             "role": "Lead"
         },
         {
-            "name": "Friends Of REDAXO",
-            "homepage": "https://friendsofredaxo.github.io"
+            "name": "KLXM Crossmedia GmbH",
+            "homepage": "https://klxm.de"
         }
     ],
     "require": {
@@ -34,17 +34,17 @@
     },
     "autoload": {
         "psr-4": {
-            "FriendsOfRedaxo\\VideoEditor\\": "src/"
+            "Klxm\\VideoEditor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FriendsOfRedaxo\\VideoEditor\\Tests\\": "tests/"
+            "Klxm\\VideoEditor\\Tests\\": "tests/"
         }
     },
     "extra": {
         "redaxo": {
-            "addon-class": "FriendsOfRedaxo\\VideoEditor\\VideoEditorAddon"
+            "addon-class": "Klxm\\VideoEditor\\VideoEditorAddon"
         },
         "branch-alias": {
             "dev-main": "1.x-dev"

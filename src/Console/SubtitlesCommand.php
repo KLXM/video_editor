@@ -1,10 +1,10 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor\Console;
+namespace Klxm\VideoEditor\Console;
 
-use FriendsOfRedaxo\VideoEditor\Subtitles;
-use FriendsOfRedaxo\VideoEditor\Tracks;
-use FriendsOfRedaxo\VideoEditor\VideoEditorAddon;
+use Klxm\VideoEditor\Subtitles;
+use Klxm\VideoEditor\Tracks;
+use Klxm\VideoEditor\VideoEditorAddon;
 use Redaxo\Core\Console\AbstractCommand;
 use Redaxo\Core\Exception\UserMessageException;
 use Redaxo\Core\MediaPool\Media;

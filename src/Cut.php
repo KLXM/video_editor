@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor;
+namespace Klxm\VideoEditor;
 
 use Redaxo\Core\Exception\UserMessageException;
 use Redaxo\Core\Filesystem\File;

@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor;
+namespace Klxm\VideoEditor;
 
 use Override;
 use Redaxo\Core\Addon\Addon;

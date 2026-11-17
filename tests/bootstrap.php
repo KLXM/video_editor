@@ -20,7 +20,7 @@ if (is_string($bootstrap) && '' !== $bootstrap) {
 
 // Testklassen des AddOns (autoload-dev greift nicht, wenn ein anderes Projekt den Autoloader stellt)
 spl_autoload_register(static function (string $class): void {
-    $prefix = 'FriendsOfRedaxo\\VideoEditor\\Tests\\';
+    $prefix = 'Klxm\\VideoEditor\\Tests\\';
     if (str_starts_with($class, $prefix)) {
         $file = __DIR__ . '/' . str_replace('\\', '/', substr($class, strlen($prefix))) . '.php';
         if (is_file($file)) {

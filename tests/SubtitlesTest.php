@@ -1,8 +1,8 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor\Tests;
+namespace Klxm\VideoEditor\Tests;
 
-use FriendsOfRedaxo\VideoEditor\Subtitles;
+use Klxm\VideoEditor\Subtitles;
 use PHPUnit\Framework\TestCase;
 
 /** @internal */

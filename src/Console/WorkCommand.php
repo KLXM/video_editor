@@ -1,8 +1,8 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor\Console;
+namespace Klxm\VideoEditor\Console;
 
-use FriendsOfRedaxo\VideoEditor\Worker;
+use Klxm\VideoEditor\Worker;
 use Redaxo\Core\Console\AbstractCommand;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Attribute\Option;

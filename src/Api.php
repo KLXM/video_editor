@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor;
+namespace Klxm\VideoEditor;
 
 use Closure;
 use Override;

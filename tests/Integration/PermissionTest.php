@@ -1,11 +1,11 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor\Tests\Integration;
+namespace Klxm\VideoEditor\Tests\Integration;
 
-use FriendsOfRedaxo\VideoEditor\Api;
-use FriendsOfRedaxo\VideoEditor\Ffmpeg;
-use FriendsOfRedaxo\VideoEditor\Jobs;
-use FriendsOfRedaxo\VideoEditor\VideoEditorAddon;
+use Klxm\VideoEditor\Api;
+use Klxm\VideoEditor\Ffmpeg;
+use Klxm\VideoEditor\Jobs;
+use Klxm\VideoEditor\VideoEditorAddon;
 use Override;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;

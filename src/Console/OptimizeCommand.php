@@ -1,11 +1,11 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor\Console;
+namespace Klxm\VideoEditor\Console;
 
-use FriendsOfRedaxo\VideoEditor\Jobs;
-use FriendsOfRedaxo\VideoEditor\Preset;
-use FriendsOfRedaxo\VideoEditor\VideoEditorAddon;
-use FriendsOfRedaxo\VideoEditor\Worker;
+use Klxm\VideoEditor\Jobs;
+use Klxm\VideoEditor\Preset;
+use Klxm\VideoEditor\VideoEditorAddon;
+use Klxm\VideoEditor\Worker;
 use Redaxo\Core\Console\AbstractCommand;
 use Redaxo\Core\MediaPool\Media;
 use Symfony\Component\Console\Attribute\Argument;

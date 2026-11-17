@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor;
+namespace Klxm\VideoEditor;
 
 use function array_filter;
 use function array_map;

@@ -1,9 +1,9 @@
-<p align="right">🌎 <a href="https://github.com/FriendsOfREDAXO/video_editor/blob/main/README.de.md">Deutsch</a></p>
+<p align="right">🌎 <a href="https://github.com/KLXM/video_editor/blob/main/README.de.md">Deutsch</a></p>
 
 # Video Editor for REDAXO 6
 
 Edit videos right in the media pool: **analyse**, **optimize for the web**, **trim**, pick a **poster** and write
-**subtitles** – with ffmpeg, as jobs in the background. The counterpart to the [Image Editor](https://github.com/FriendsOfREDAXO/image_editor).
+**subtitles** – with ffmpeg, as jobs in the background. The counterpart to the [Image Editor](https://github.com/KLXM/image_editor).
 
 ![Video panel in the media detail view: preview, rating, jobs and versions](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-panel-page.png)
 
@@ -24,7 +24,7 @@ Edit videos right in the media pool: **analyse**, **optimize for the web**, **tr
 ## Installation
 
 ```bash
-composer require friendsofredaxo/video_editor:1.x-dev
+composer require klxm/video_editor:1.x-dev
 php bin/console migrate
 ```
 
@@ -179,7 +179,7 @@ Checks happen on the server; the interface only hides what isn't allowed.
 A complete `<video>` with poster, web versions and subtitles:
 
 ```php
-use FriendsOfRedaxo\VideoEditor\VideoEditor;
+use Klxm\VideoEditor\VideoEditor;
 
 echo VideoEditor::html('film.mov', ['label' => 'Our film', 'captions' => true]);  // subtitles in the page language on
 echo VideoEditor::html('loop.mp4', ['background' => true]);                       // muted, looping, no controls
@@ -205,11 +205,11 @@ MP4 version – without an MP4 version the original. The browser takes the first
 small file.
 
 To use the video editor only when it is installed, check
-`class_exists(\FriendsOfRedaxo\VideoEditor\VideoEditor::class)` first.
+`class_exists(\Klxm\VideoEditor\VideoEditor::class)` first.
 
 ### fluid
 
-[fluid](https://github.com/FriendsOfREDAXO/fluid) doesn't need the video editor but uses it when present: the “Video”
+[fluid](https://github.com/KLXM/fluid) doesn't need the video editor but uses it when present: the “Video”
 block shows the poster picked here when no preview image is set, delivers the web versions and takes over the subtitles
 (including the “text of the video” transcript) when none are set in the block; the hero background video
 takes the smaller version, and the media field gets a “Edit video” button for videos.
@@ -235,7 +235,7 @@ REDAXO_BOOTSTRAP=/path/to/redaxo/.tools/bootstrap.php vendor/bin/phpunit -c /pat
 
 ## Author
 
-**Thomas Skerbis** ([skerbis](https://github.com/skerbis)) for [Friends Of REDAXO](https://friendsofredaxo.github.io)
+**Thomas Skerbis** ([skerbis](https://github.com/skerbis)) for [KLXM Crossmedia](https://klxm.de)
 
 Sample video in the screenshots: [kitten](https://pixabay.com/videos/kitten-game-pets-4216/) from Pixabay.
 

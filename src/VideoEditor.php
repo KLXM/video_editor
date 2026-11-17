@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor;
+namespace Klxm\VideoEditor;
 
 use Redaxo\Core\Core;
 use Redaxo\Core\Filesystem\Url;
@@ -28,7 +28,7 @@ use function strtolower;
  *     }
  *     VideoEditor::tracks('film.mov');                    // Untertitel und Kapitel
  *
- * Wer prüfen will, ob das AddOn da ist: class_exists(\FriendsOfRedaxo\VideoEditor\VideoEditor::class).
+ * Wer prüfen will, ob das AddOn da ist: class_exists(\Klxm\VideoEditor\VideoEditor::class).
  */
 final class VideoEditor
 {

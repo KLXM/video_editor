@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor;
+namespace Klxm\VideoEditor;
 
 use Redaxo\Core\Database\Sql;
 use Redaxo\Core\MediaPool\Media;

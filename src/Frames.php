@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor;
+namespace Klxm\VideoEditor;
 
 use Redaxo\Core\Filesystem\Dir;
 use Redaxo\Core\Filesystem\Path;
