@@ -25,6 +25,10 @@
             "homepage": "https://klxm.de"
         }
     ],
+    "support": {
+        "issues": "https://github.com/KLXM/video_editor/issues",
+        "source": "https://github.com/KLXM/video_editor"
+    },
     "require": {
         "php": "^8.5",
         "redaxo/core": "^6.0@dev"
