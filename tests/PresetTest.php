@@ -1,8 +1,8 @@
 <?php
 
-namespace FriendsOfRedaxo\VideoEditor\Tests;
+namespace Klxm\VideoEditor\Tests;
 
-use FriendsOfRedaxo\VideoEditor\Preset;
+use Klxm\VideoEditor\Preset;
 use PHPUnit\Framework\TestCase;
 
 use function implode;
