@@ -5,7 +5,7 @@
 Videos direkt im Medienpool bearbeiten: **analysieren**, **für das Web optimieren**, **schneiden**, ein **Poster**
 wählen und **Untertitel** schreiben – mit ffmpeg, als Aufträge im Hintergrund. Das Gegenstück zum [Image-Editor](https://github.com/KLXM/image_editor).
 
-![Video-Panel in der Medien-Detailansicht: Vorschau, Bewertung, Aufträge und Fassungen](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-panel-page.png)
+![Video-Panel in der Medien-Detailansicht: Vorschau, Bewertung, Aufträge und Fassungen](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-panel-page.png)
 
 - **Analyse** – Auflösung, Codecs, Dauer, Datenrate, ob das Video sofort startet; dazu eine Bewertung der
   Web-Tauglichkeit mit Empfehlungen, die sich mit einem Klick anwenden lassen
@@ -55,7 +55,7 @@ nach dem vollständigen Laden starten, und für ungeeignete Formate. Zu jedem Hi
 
 ## Optimieren
 
-![Dialog „Video optimieren“: Web 1080p, 720p und 480p angekreuzt, „3 Aufträge, sie laufen nacheinander“](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-optimize.png)
+![Dialog „Video optimieren“: Web 1080p, 720p und 480p angekreuzt, „3 Aufträge, sie laufen nacheinander“](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-optimize.png)
 
 | Vorlage | Ergebnis |
 | --- | --- |
@@ -77,7 +77,7 @@ Fassung je Bildschirmbreite (siehe [Für Entwickler](#für-entwickler)).
 
 ## Schneiden
 
-![Schnitt-Editor: Zeitleiste mit Vorschaubildern, entfernter Abschnitt, bildgenauer Schnitt](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-cut.png)
+![Schnitt-Editor: Zeitleiste mit Vorschaubildern, entfernter Abschnitt, bildgenauer Schnitt](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-cut.png)
 
 Abspielkopf setzen, mit **Teilen** zerlegen, Abschnitt anklicken und **entfernen** – oder seine Ränder ziehen.
 **Ergebnis abspielen** springt über die entfernten Teile, die neue Länge steht darunter.
@@ -99,7 +99,7 @@ Zwei Arten zu schneiden:
   Schlüsselbild beginnen. Der Editor zeigt die Schlüsselbilder auf der Zeitleiste und gelb, was dadurch zusätzlich
   mitkommt; bliebe so nichts herausgeschnitten, empfiehlt er „Genau“.
 
-![Schneller Schnitt: Schlüsselbilder und gelb markierter Vorlauf](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-cut-fast.png)
+![Schneller Schnitt: Schlüsselbilder und gelb markierter Vorlauf](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-cut-fast.png)
 
 Untertitel werden mitgeschnitten: Einträge in entfernten Teilen fallen weg, angeschnittene werden gekürzt, alles danach
 rückt nach vorn. Die neue Fassung bekommt eigene Untertitel-Dateien; ersetzt der Schnitt das Original, werden dessen
@@ -107,7 +107,7 @@ Dateien angepasst.
 
 ## Poster
 
-![Poster wählen: Video mit Schritten um eine Sekunde und ein Bild](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-poster.png)
+![Poster wählen: Video mit Schritten um eine Sekunde und ein Bild](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-poster.png)
 
 Stelle im Video suchen, mit „±1 Bild“ genau treffen, übernehmen: Das Standbild landet als JPEG im Medienpool, in derselben
 Kategorie, und ist mit dem Video verknüpft. Ein neues Poster ersetzt die Datei des bisherigen – wo es verwendet wird,
@@ -115,7 +115,7 @@ erscheint gleich das neue.
 
 ## Untertitel und Kapitel
 
-![Untertitel-Editor: Video mit Live-Vorschau, Einträge mit Zeiten und Text](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-subtitles.png)
+![Untertitel-Editor: Video mit Live-Vorschau, Einträge mit Zeiten und Text](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-subtitles.png)
 
 Je Video beliebig viele Spuren – Untertitel, Untertitel für Gehörlose (mit Geräuschen) und Kapitel, je Sprache. Der
 Editor zeigt jede Änderung sofort im Video:
@@ -155,7 +155,7 @@ Cronjobs von REDAXO 6 laufen nur, wenn der System-Cron sie jede Minute anstößt
 Offene Aufträge zeigt auch die Medienliste: oben ein Hinweis („ein Auftrag läuft (71 %), 2 warten“), am Video sein
 Stand – beides aktualisiert sich, bis alles erledigt ist.
 
-![Medienliste mit dem Hinweis auf einen laufenden Auftrag](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-queue.png)
+![Medienliste mit dem Hinweis auf einen laufenden Auftrag](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-queue.png)
 
 Auch ohne Backend, etwa beim Einrichten einer Website oder für viele Videos auf einmal:
 

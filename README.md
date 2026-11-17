@@ -5,7 +5,7 @@
 Edit videos right in the media pool: **analyse**, **optimize for the web**, **trim**, pick a **poster** and write
 **subtitles** – with ffmpeg, as jobs in the background. The counterpart to the [Image Editor](https://github.com/KLXM/image_editor).
 
-![Video panel in the media detail view: preview, rating, jobs and versions](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-panel-page.png)
+![Video panel in the media detail view: preview, rating, jobs and versions](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-panel-page.png)
 
 - **Analysis** – resolution, codecs, duration, bitrate, whether the video starts right away; plus a web readiness score
   with recommendations you can apply with one click
@@ -53,7 +53,7 @@ and unsuitable formats. Every hint comes with a matching preset.
 
 ## Optimize
 
-![“Optimize video” dialog: Web 1080p, 720p and 480p ticked, “3 jobs, run one after another”](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-optimize.png)
+![“Optimize video” dialog: Web 1080p, 720p and 480p ticked, “3 jobs, run one after another”](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-optimize.png)
 
 | Preset | Result |
 | --- | --- |
@@ -75,7 +75,7 @@ version by screen width (see [For developers](#for-developers)).
 
 ## Trim
 
-![Trim editor: timeline with thumbnails, removed section, frame-accurate cut](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-cut.png)
+![Trim editor: timeline with thumbnails, removed section, frame-accurate cut](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-cut.png)
 
 Set the playhead, **split**, click a section and **remove** it – or drag its edges. **Play result** skips the removed
 parts, the new length is shown below.
@@ -97,14 +97,14 @@ Two ways to cut:
   though. The editor shows the keyframes on the timeline and marks in yellow what comes along as a result; if nothing
   would be removed that way, it recommends “Exact”.
 
-![Fast cut: keyframes and lead-in marked in yellow](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-cut-fast.png)
+![Fast cut: keyframes and lead-in marked in yellow](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-cut-fast.png)
 
 Subtitles are trimmed along: entries in removed parts are dropped, partly removed ones shortened, everything after moves
 forward. A new version gets its own subtitle files; if the cut replaces the original, its files are adjusted.
 
 ## Poster
 
-![Pick a poster: video with one-second and one-frame steps](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-poster.png)
+![Pick a poster: video with one-second and one-frame steps](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-poster.png)
 
 Find the spot, hit it exactly with “±1 frame”, take it: the still lands as a JPEG in the media pool, in the same category,
 linked to the video. A new poster replaces the file of the previous one – wherever it is used, the new one shows up
@@ -112,7 +112,7 @@ right away.
 
 ## Subtitles and chapters
 
-![Subtitle editor: video with live preview, entries with times and text](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-subtitles.png)
+![Subtitle editor: video with live preview, entries with times and text](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-subtitles.png)
 
 Any number of tracks per video – subtitles, captions for the deaf and hard of hearing (with sounds) and chapters, per
 language. The editor shows every change in the video right away:
@@ -152,7 +152,7 @@ REDAXO 6 cronjobs only run when the system cron triggers them every minute:
 The media list shows open jobs too: a notice at the top (“one job running (71 %), 2 waiting”) and the state at the video –
 both update until everything is done.
 
-![Media list with the notice about a running job](https://raw.githubusercontent.com/FriendsOfREDAXO/video_editor/assets/ve-queue.png)
+![Media list with the notice about a running job](https://raw.githubusercontent.com/KLXM/video_editor/assets/ve-queue.png)
 
 Also without the backend, e.g. when setting up a website or for many videos at once:
 
