@@ -184,6 +184,18 @@ final class VideoEditor
         return $html . '</video>';
     }
 
+    /**
+     * Adresse der API des Video-Editors (mit CSRF-Token) für Skripte anderer AddOns, z. B. einen Editor, der ein
+     * Standbild als Poster setzt (POST action=poster, file, time). Null, wenn der angemeldete Benutzer keine Videos
+     * bearbeiten darf; Medienkategorie und Rechte prüft die API bei jedem Aufruf selbst.
+     */
+    public static function apiUrl(): ?string
+    {
+        $user = Core::getUser();
+
+        return null !== $user && VideoEditorAddon::allowed($user) ? Url::backendController(Api::getUrlParams()) : null;
+    }
+
     /** Video im Medienpool bearbeiten (Backend) – null, wenn der angemeldete Benutzer es nicht darf */
     public static function editUrl(string $file): ?string
     {

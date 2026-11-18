@@ -198,6 +198,7 @@ foreach (VideoEditor::sources('film.mov') as $s) {  // in checking order, with a
 VideoEditor::sources('film.mov', small: true);      // without 1080p and WebM, e.g. for background videos
 VideoEditor::tracks('film.mov');                    // subtitles/chapters: file, url (text/vtt), lang, kind, label
 VideoEditor::editUrl('film.mov');                   // edit in the media pool – null without permission
+VideoEditor::apiUrl();                              // API address with CSRF token for scripts (POST action=poster, file, time) – null without permission
 ```
 
 The order of `sources()`: 480p with `(max-width: 640px)`, 720p with `(max-width: 1280px)`, then WebM, then the largest
