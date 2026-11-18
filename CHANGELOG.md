@@ -24,3 +24,5 @@ Neuentwicklung für REDAXO 6, mit Ideen aus dem AddOn ffmpeg für REDAXO 5.
 - Schnittstelle `VideoEditor` (Poster, Web-Fassungen, Bearbeiten-Adresse) – genutzt von fluid, wenn vorhanden
 - Pfade per Umgebungsvariable (`FFMPEG_BIN`, `FFPROBE_BIN`, `PHP_CLI`) oder Konfiguration
 - Unit-Tests für Untertitel, Integrationstests für die Rechte
+- `VideoEditor::apiUrl()`: Adresse der API mit CSRF-Token für Skripte anderer AddOns (z. B. Standbild als Poster im
+  TipTap-Video-Dialog)
