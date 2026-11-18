@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 – in Arbeit
+## 1.0.0-beta.1 – 2026-11-18
 
 Neuentwicklung für REDAXO 6, mit Ideen aus dem AddOn ffmpeg für REDAXO 5.
 

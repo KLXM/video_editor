@@ -24,7 +24,7 @@ Edit videos right in the media pool: **analyse**, **optimize for the web**, **tr
 ## Installation
 
 ```bash
-composer require klxm/video_editor:1.x-dev
+composer require klxm/video_editor:^1.0@beta
 php bin/console migrate
 ```
 

@@ -25,7 +25,7 @@ wählen und **Untertitel** schreiben – mit ffmpeg, als Aufträge im Hintergrun
 ## Installation
 
 ```bash
-composer require klxm/video_editor:1.x-dev
+composer require klxm/video_editor:^1.0@beta
 php bin/console migrate
 ```
 
